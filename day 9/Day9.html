@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title style="border-style:double;">Responsive Layout</title>
+  <meta name="viewport" content="width=device-width,initial scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    .bg-img {
+
+      min-height: 380px;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      /* Needed to position the navbar */
+      position: relative;
+    }
+
+    /* Position the navbar container inside the image */
+    .container {
+      position: absolute;
+      margin: 20px;
+      width: auto;
+    }
+
+    /* The navbar */
+    .topnav {
+      overflow: hidden;
+      background-color: #00e6e6;
+    }
+
+    /* Navbar links */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: right;
+      width: 21.33%;
+      padding: 3px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    p2 {
+      border-style: double;
+      width: 950px;
+      font-size: 22px;
+      color: #666699;
+      float: left;
+      display: flex;
+    }
+
+    p3 {
+      float: left;
+      border-style: double;
+      width: 250px;
+      font-size: 22px;
+      color: #666699;
+    }
+@media (min-width:900px)
+
+  </style>
+</head>
+
+<body>
+  <h1 style="font-size: 10w; text-align: center;">Responsive Layouts</h1>
+  <div class="bg-img">
+    <div class="container">
+      <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#news">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About us</a>
+      </div>
+    </div>
+  </div>
+
+
+  <p style="font-family :Garamond (serif);font-size: 30px; color: blue;"> Explore All the Corners of the World with us
+  </p>
+  <p2>tourism is travel for pleasure or business; also the theory and practice of touring, the business of attracting,
+    accommodating, and entertaining tourists, and the business of operating tours. The World Tourism Organization
+    defines tourism more generally, in terms which go "beyond the common perception of tourism as being limited to
+    holiday activity only", as people "traveling to and staying in places outside their usual environment for not more
+    than one consecutive year for leisure and not less than 24 hours, business and other purposes".</p2><br>
+  <div class="row">
+    <div class="column">
+      <img src="snow.jpg" alt="Snow" style="width:50% "><br><br>
+    </div>
+    <div class="column">
+      <br> <br><img src="forest.jpg" alt="Forest" style="width:50%">
+    </div><br><br><br><br><br><br><br><br>
+    <h2>About</h2>
+    <br>
+    <p3>
+      We have Lot of Facilities for Tourists.We Provide Best Tour Experience so Do Book your Journey With Us </p3>
+    <br><br><br><br><br><br><br><br>
+    <footer>
+      <center>
+        <p4 style=" border-style: double">For More Information Check Our Website:</p4>
+        <a href="https://en.wikipedia.org/wiki/Tourism" style=" border-style: double" target="new">Click Here</a>
+      </center>
+    </footer>
+</body>
